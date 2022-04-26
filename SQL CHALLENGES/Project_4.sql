@@ -1,10 +1,10 @@
-                                                                                  Challenge: Playlist maker
+/*                                                                                  Challenge: Playlist maker
 Step 1
 We've created a database of songs and artists, and you'll make playlists from them in this challenge. In this first step, select the title of all the songs by the artist named 'Queen'.
 Step 2
 Now you'll make a 'Pop' playlist. In preparation, select the name of all of the artists from the 'Pop' genre
 Step 3
-To finish creating the 'Pop' playlist, add another query that will select the title of all the songs from the 'Pop' artists. It should use IN on a nested subquery that's based on your previous query.
+To finish creating the 'Pop' playlist, add another query that will select the title of all the songs from the 'Pop' artists. It should use IN on a nested subquery that's based on your previous query.*/
 
 CREATE TABLE artists (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
