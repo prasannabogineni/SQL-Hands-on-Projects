@@ -1,0 +1,23 @@
+CREATE TABLE exercise_logs
+    (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    type TEXT,
+    minutes INTEGER, 
+    calories INTEGER,
+    heart_rate INTEGER);
+
+INSERT INTO exercise_logs(type,minutes,calories,heart_rate) values ("Biking", 30, 100, 110);
+INSERT INTO exercise_logs(type,minutes,calories,heart_rate) values ("Biking", 10, 30, 105);
+INSERT INTO exercise_logs(type,minutes,calories,heart_rate) values ("Dancing", 15, 200, 120);
+
+select * from exercise_logs where calories > 50 order by calories;
+
+
+/*AND*/
+
+select * from exercise_logs where calories > 50 AND minutes < 30;
+
+
+/* OR */
+
+select * from exercise_logs where calories > 50 OR heart_rate > 100;
+
