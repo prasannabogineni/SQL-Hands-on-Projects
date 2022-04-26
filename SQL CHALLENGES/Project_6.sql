@@ -1,11 +1,11 @@
-                                                            Challenge: Bobby's Hobbies
+/*                                                            Challenge: Bobby's Hobbies
 
 Step 1
 We've created a database of people and hobbies, and each row in hobbies is related to a row in persons via the person_id column. In this first step, insert one more row in persons and then one more row in hobbies that is related to the newly inserted person.
 Step 2
 Now, select the 2 tables with a join so that you can see each person's name next to their hobby.
 Step 3
-Now, add an additional query that shows only the name and hobbies of 'Bobby McBobbyFace', using JOIN combined with WHERE.
+Now, add an additional query that shows only the name and hobbies of 'Bobby McBobbyFace', using JOIN combined with WHERE.*/
 
 
 CREATE TABLE persons (
