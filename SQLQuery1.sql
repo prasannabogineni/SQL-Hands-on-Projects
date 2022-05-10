@@ -1,0 +1,1 @@
+Drop database sample4
